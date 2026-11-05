@@ -5,6 +5,13 @@
 App mobile para organizar e descobrir eventos em Belo Horizonte.
 Trabalho da disciplina de desenvolvimento mobile — Newton Paiva Wyden.
 
+<p align="center">
+  <img src="docs/print1.jpeg" width="200" alt="Lista de eventos" />
+  <img src="docs/print2.jpeg" width="200" alt="Cadastro de evento" />
+  <img src="docs/print3.jpeg" width="200" alt="Calendário de datas" />
+  <img src="docs/print4.jpeg" width="200" alt="Detalhe do evento" />
+</p>
+
 ## Funcionalidades
 - Cadastro de eventos (nome, local, data e descrição)
 - Lista "Meus Eventos" em cards
