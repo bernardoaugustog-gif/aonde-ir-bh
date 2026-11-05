@@ -13,6 +13,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="pontos"
+        options={{
+          title: 'Pontos',
+          tabBarIcon: ({ color, size }) => <Ionicons name="location" size={size} color={color as string} />,
+      }}
+      />
+      <Tabs.Screen
         name="cadastro"
         options={{
           title: 'Cadastrar',

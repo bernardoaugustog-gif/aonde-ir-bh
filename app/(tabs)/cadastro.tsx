@@ -58,12 +58,20 @@ export default function Cadastro() {
 }
 
 const styles = StyleSheet.create({
-  tela: { flex: 1, backgroundColor: '#fff' },
+  tela: { flex: 1, backgroundColor: cores.fundo },
   conteudo: { padding: 16 },
-  titulo: { fontSize: 22, fontWeight: 'bold', color: '#000', marginBottom: 16 },
-  campo: { borderWidth: 1, borderColor: '#ccc', borderRadius: 8, padding: 12, marginBottom: 12, color: '#000' },
+  titulo: { fontSize: 20, fontWeight: 'bold', color: cores.texto, marginBottom: 16 },
+  campo: {
+    borderWidth: 1,
+    borderColor: cores.borda,
+    backgroundColor: cores.branco,
+    borderRadius: 8,
+    padding: 12,
+    marginBottom: 12,
+    color: cores.texto,
+  },
   campoGrande: { height: 100, textAlignVertical: 'top' },
-  botao: { backgroundColor: '#1e6fd9', padding: 14, borderRadius: 8, alignItems: 'center' },
-  botaoTexto: { color: '#fff', fontWeight: 'bold' },
-  erro: { color: '#B3261E', marginBottom: 12 },
+  erro: { color: cores.perigo, marginBottom: 12 },
+  botao: { backgroundColor: cores.primaria, padding: 14, borderRadius: 8, alignItems: 'center' },
+  botaoTexto: { color: cores.branco, fontWeight: 'bold' },
 });
